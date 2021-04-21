@@ -17,6 +17,8 @@
 		6BB99A222625884200FBFCDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB99A212625884200FBFCDA /* LoginViewController.swift */; };
 		6BD180EC262EA3080008613B /* SelfSizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD180EB262EA3080008613B /* SelfSizingViewController.swift */; };
 		6BD180EF262EAB320008613B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD180EE262EAB320008613B /* CustomTableViewCell.swift */; };
+		6BD180F3263067800008613B /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD180F2263067800008613B /* MenuButton.swift */; };
+		6BD180F72630689B0008613B /* FloatingButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD180F62630689B0008613B /* FloatingButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		6BB99A212625884200FBFCDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6BD180EB262EA3080008613B /* SelfSizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizingViewController.swift; sourceTree = "<group>"; };
 		6BD180EE262EAB320008613B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6BD180F2263067800008613B /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		6BD180F62630689B0008613B /* FloatingButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		6B00137A26136DB60024E046 /* AutoLayoutPractice */ = {
 			isa = PBXGroup;
 			children = (
+				6BD180F12630675F0008613B /* FloatingButtons */,
 				6B00137B26136DB60024E046 /* AppDelegate.swift */,
 				6B00137D26136DB60024E046 /* SceneDelegate.swift */,
 				6B00137F26136DB60024E046 /* ViewController.swift */,
@@ -77,6 +82,15 @@
 				6BD180EE262EAB320008613B /* CustomTableViewCell.swift */,
 			);
 			path = AutoLayoutPractice;
+			sourceTree = "<group>";
+		};
+		6BD180F12630675F0008613B /* FloatingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				6BD180F2263067800008613B /* MenuButton.swift */,
+				6BD180F62630689B0008613B /* FloatingButtonViewController.swift */,
+			);
+			path = FloatingButtons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +167,10 @@
 				6B00138026136DB60024E046 /* ViewController.swift in Sources */,
 				6B0013B8261C73780024E046 /* StackViewController.swift in Sources */,
 				6BD180EF262EAB320008613B /* CustomTableViewCell.swift in Sources */,
+				6BD180F3263067800008613B /* MenuButton.swift in Sources */,
 				6B00137C26136DB60024E046 /* AppDelegate.swift in Sources */,
 				6BB99A222625884200FBFCDA /* LoginViewController.swift in Sources */,
+				6BD180F72630689B0008613B /* FloatingButtonViewController.swift in Sources */,
 				6B00137E26136DB60024E046 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
